@@ -214,6 +214,8 @@ Netflix 出品。讲了 yield 的一些使用方法。
 
 作为输入的例子可以参见我之前写的 [gist](https://gist.github.com/th507/626664612a1ae9893589)
 
+实现类似 `function* () {setTimeout(yield, 100)}` 的懒执行
+
 ---
 
 # koa 和 toa 的框架原理及开发实践
@@ -381,4 +383,5 @@ http://avgp.github.io/shenjs-3d/#13
 ---
 
 # 完
+
 ![](hiring.jpg)
