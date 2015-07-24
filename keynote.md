@@ -309,6 +309,8 @@ karma + phantomjs + karma-coverage
 
 [slide](https://github.com/mafintosh/slides/tree/gh-pages/jsconf-china-2015)
 
+---
+
 # 微服务架构下的服务通讯
 
 山寨了 Erlang
