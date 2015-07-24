@@ -187,6 +187,8 @@
 
 传统的系统分层大概是这样的
 
+```
+
 前端的界面渲染 1
                     <-- 前端关注的双向绑定
 前端数据和逻辑 2
@@ -195,15 +197,15 @@
                     <-- 后端的业务分界
 底层数据库或数据服务 4
 
+```
+
 1、2 是传统数据双向绑定的关注界限
 
 但 meteor 解决了 2 - 3 甚至 2 - 4 的通讯机制。看上去是前端直连数据库的做法，其实内部是有分层的。
 
 这个在 QA 环节有人问过，在本地有一个 minimongo 数据库，然后 meteor 保持 minimongo 和服务器端数据的同步。
 
-
-[slide](https://github.com/JacksonTian/shenjs)
-
+[slide](http://slides.com/evanyou/shenjs#/)
 ---
 
 # Unlimited Power – ES6 Generators
@@ -296,6 +298,9 @@ karma + phantomjs + karma-coverage
 
 深入 v8 做了一个 profiler，做了图形化的界面。
 
+[profiler](http://alinode.aliyun.com/)
+[slide](https://github.com/JacksonTian/shenjs)
+
 ---
 
 # p2p pipes
@@ -372,12 +377,14 @@ http://avgp.github.io/shenjs-3d/#13
 
 
 传统的前端开发领域
+
 - 组件化是项目规模扩大后的一个产物，大家都在做，各家方案不同
 - promise 普及了
 - react 是目前比较热门的前端组件化方案，但用 angular 的人也不少
 - koa 开始在国内普及，但普遍水平一般
 
 另外
+
 - coffee 还有人用
 
 ---
